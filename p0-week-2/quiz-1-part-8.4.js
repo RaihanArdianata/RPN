@@ -10,7 +10,7 @@ function palindrome(kata) {
     const element = kata[i]; // example = k , 6 - i = 6,
     if (element !== kata[kata.length - 1 - i]) {
       isPalindrome = false;
-      break;
+      continue;
     }
   }
 

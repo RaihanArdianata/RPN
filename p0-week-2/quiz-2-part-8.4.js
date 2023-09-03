@@ -11,7 +11,7 @@ function palindrome(val) {
     const element = val[i];
     if (element !== val[val.length - 1 - i]) {
       isPalindrome = false;
-      break;
+      continue;
     }
   }
 
